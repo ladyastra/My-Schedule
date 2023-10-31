@@ -1,0 +1,59 @@
+
+nav {
+    color: black;
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    background-color: white;
+}
+
+body {
+    background-color: pink;
+}
+
+/* Table Styles */
+table.schedule {
+    background: plum;
+    border: solid;
+    font-size: 1em;
+    width: 80%;
+    margin: 100px 0px 0px 100px;
+}
+
+/* Table Cell Styles */
+table.schedule th, table.schedule td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color:lightblue;
+}
+
+tr:nth-child(odd) {
+    background-color: cornflowerblue;
+}
+
+th, .sidebar {
+    background-color:darkblue;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    padding: 5px;
+}
